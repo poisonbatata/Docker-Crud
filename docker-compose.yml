@@ -23,9 +23,9 @@ services:
       - db
     environment:
       - DB_USER=postgres
-      - DB_HOST=db
-      - DB_NAME=postgres
-      - DB_PASSWORD=postgres
+      - DB_HOST=rds-aws-aula.c1gaum6wq0rd.us-east-1.rds.amazonaws.com
+      - DB_NAME=aws_db
+      - DB_PASSWORD=Aula*Infra
 
 volumes:
   pgdata:
